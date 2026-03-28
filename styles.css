@@ -1,0 +1,50 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ADD8E6;
+}
+.cabecalho{
+    background-color: #d2d2d2;
+    text-align: center;
+}
+.titulo{
+    font-weight: bold;
+    color: red;
+    font-size: 32px;
+}
+.subtitulo{
+    color: yellow;
+}
+.conteudo{
+    background-color: salmon;
+    color: aquamarine;
+}
+.container p{
+    color: blue;
+}
+
+/* DESAFIO */
+
+.conteudo h1{
+    color: #E4005A;
+    font-size: 42px;
+}
+
+/* DESAFIO PLUS*/
+/* FONTE: https://developer-mozilla-org.translate.goog/en-US/docs/Web/HTML/Reference/Elements/sub?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc */
+/* https://pt.stackoverflow.com/questions/380734/selecionar-a-primeira-ocorr%C3%AAncia-da-classe-usando-css */
+.conteudo p:nth-child(4){
+    color: purple;
+    vertical-align: sub;
+}
+
+
+/* DESAFIO PLUS 2 */
+/* FONTE: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Guides/Media_queries/Using */
+@media (min-width: 480px){
+    .container{
+        background-color: green;
+    }
+}
